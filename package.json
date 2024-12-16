@@ -1,0 +1,44 @@
+{
+  "name": "parking-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API for parking manager application.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BA-EAD/parking-manager-backend.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Parking",
+    "App"
+  ],
+  "author": "Bhavin Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BA-EAD/parking-manager-backend/issues"
+  },
+  "homepage": "https://github.com/BA-EAD/parking-manager-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.6.0",
+    "express-validation": "^4.1.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  }
+}
